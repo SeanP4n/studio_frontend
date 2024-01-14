@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.*
 
 @Controller
 @CrossOrigin
-@RequestMapping("/inglab")
 class WebController {
     @RequestMapping(value = ["/**/{path:[^\\.]*}"])
     fun index(
